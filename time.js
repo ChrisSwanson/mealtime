@@ -4666,4 +4666,4 @@ function timeBoundary() {
 }
 
 timeBoundary();
-setInterval(timeBoundary, 500);
+setInterval(timeBoundary, 1000);
