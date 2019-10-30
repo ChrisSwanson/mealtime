@@ -4604,7 +4604,7 @@
 boundaries = [
     {
         "name": "breakfast",
-        "upper": "01:00:00",
+        "upper": "03:00:00",
         "lower": "10:29:59"
     }, {
         "name": "brunch",
@@ -4637,20 +4637,33 @@ boundaries = [
     }, {
         "name": "midnight snack",
         "upper": "21:30:00",
-        "lower": "00:59:59"
+        "lower": "23:59:59"
+    }, {
+        "name": "midnight snack",
+        "upper": "00:00:00",
+        "lower": "02:59:59"
     }
 ]
 
+function currentTime() {
+    document.getElementById("clock").innerHTML=moment().format("HH:mm:ss");
+}
+
+currentTime();
+setInterval(currentTime, 500);
+
 function timeBoundary() {
     for (var i = 0; i < boundaries.length; i++) {
+
         var upper = moment(boundaries[i].upper, "HH:mm:ss");
         var lower = moment(boundaries[i].lower, "HH:mm:ss");
 
-        if (moment().isBetween(upper, lower)) {            
+        if (moment().isBetween(upper, lower)) {
+            console.log(boundaries[i].name);
             document.getElementById("mealtime").innerHTML=boundaries[i].name;
         }
     }
 }
 
 timeBoundary();
-setTimeout(timeBoundary, 500);
+setInterval(timeBoundary, 500);
