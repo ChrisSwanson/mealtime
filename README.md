@@ -1,1 +1,1 @@
-[mealtime.fyi](https://mealtime.fyi)
+[![mealtime.fyi](favicon.ico)](https://mealtime.fyi)

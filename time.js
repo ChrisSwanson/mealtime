@@ -4659,7 +4659,6 @@ function timeBoundary() {
         var lower = moment(boundaries[i].lower, "HH:mm:ss");
 
         if (moment().isBetween(upper, lower)) {
-            console.log(boundaries[i].name);
             document.getElementById("mealtime").innerHTML=boundaries[i].name;
         }
     }
