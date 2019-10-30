@@ -4603,43 +4603,43 @@
 
 boundaries = [
     {
-        "name": "breakfast",
+        "name": "brunch",
         "upper": "03:00:00",
         "lower": "10:29:59"
     }, {
-        "name": "brunch",
+        "name": "bottomless mimosa brunch",
         "upper": "10:30:00",
         "lower": "11:59:59"
     }, {
-        "name": "lunch",
+        "name": "bottomless mimosa brunch",
         "upper": "12:00:00",
         "lower": "12:59:59"
     }, {
-        "name": "late lunch",
+        "name": "bottomless mimosa brunch",
         "upper": "13:00:00",
         "lower": "14:29:59"
     }, {
-        "name": "afternoon snack",
+        "name": "brunch",
         "upper": "14:30:00",
         "lower": "15:59:59"
     }, {
-        "name": "early dinner",
+        "name": "happy hour brunch",
         "upper": "16:00:00",
         "lower": "17:29:59"
     }, {
-        "name": "dinner",
+        "name": "happy hour brunch",
         "upper": "17:30:00",
         "lower": "19:59:59"
     }, {
-        "name": "late dinner",
+        "name": "brunch",
         "upper": "20:00:00",
         "lower": "21:29:59"
     }, {
-        "name": "midnight snack",
+        "name": "brunch",
         "upper": "21:30:00",
         "lower": "23:59:59"
     }, {
-        "name": "midnight snack",
+        "name": "brunch",
         "upper": "00:00:00",
         "lower": "02:59:59"
     }
