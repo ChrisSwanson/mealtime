@@ -1,0 +1,39 @@
+[
+    {
+        "name": "breakfast",
+        "upper": "01:00:00",
+        "lower": "10:29:59"
+    }, {
+        "name": "brunch",
+        "upper": "10:30:00",
+        "lower": "11:59:59"
+    }, {
+        "name": "lunch",
+        "upper": "12:00:00",
+        "lower": "12:59:59"
+    }, {
+        "name": "late lunch",
+        "upper": "13:00:00",
+        "lower": "14:29:59"
+    }, {
+        "name": "afternoon snack",
+        "upper": "14:30:00",
+        "lower": "15:59:59"
+    }, {
+        "name": "early dinner",
+        "upper": "16:00:00",
+        "lower": "17:29:59"
+    }, {
+        "name": "dinner",
+        "upper": "17:30:00",
+        "lower": "19:59:59"
+    }, {
+        "name": "late dinner",
+        "upper": "20:00:00",
+        "lower": "21:29:59"
+    }, {
+        "name": "midnight snack",
+        "upper": "21:30:00",
+        "lower": "00:59:59"
+    }
+]
